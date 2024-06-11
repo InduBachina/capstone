@@ -166,3 +166,17 @@ footer {
 #splash button:hover {
     background: #f4f4f4;
 }
+
+.read-more {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.read-more:hover {
+    background: #45a049;
+}
