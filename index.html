@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splash Page - Health Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Splash Content -->
+    <div id="splash">
+        <h1>Welcome to Health Website</h1>
+        <button id="enter-site">Enter Site</button>
+    </div>
+
+    <script>
+        // Function to navigate to the home page
+        const navigateToHomePage = () => {
+            window.location.href = 'home.html';
+        };
+
+        // Navigate to home page after 3 seconds
+        setTimeout(navigateToHomePage, 3000);
+
+        // Navigate to home page when button is clicked
+        document.getElementById('enter-site').addEventListener('click', navigateToHomePage);
+    </script>
+</body>
+</html>
