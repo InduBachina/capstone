@@ -3,46 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Health Website</title>
+    <title>FAQs - Health Website</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo-container">
-                <img src="logo.png" alt="Website Logo" class="logo">
-                <span class="site-name">WellnessSphere</span>
-            </div>
-            <ul class="nav-links">
-                <li><a href="home.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-                <li><a href="blogs.html">Blogs</a></li>
-                <li><a href="faqs.html">FAQs</a></li>
-                <li><a href="infographics.html">Infographics</a></li>
-                <li><a href="testimonials.html">Patient Testimonials</a></li>
-                <li><a href="videos.html">Videos</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-content">
-            <h1>FAQs</h1>
-            <p>Learn more about our mission and values.</p>
-        </div>
-    </section>
+    <!-- Main Content -->
+    <div id="main-content">
+        <!-- Header -->
+        <header>
+            <nav>
+                <div class="logo-container">
+                    <img src="logo.png" alt="Website Logo" class="logo">
+                    <span class="site-name">WellnessSphere</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="blogs.html">Blogs</a></li>
+                    <li><a href="faqs.html">FAQs</a></li>
+                    <li><a href="infographics.html">Infographics</a></li>
+                    <li><a href="testimonials.html">Patient Testimonials</a></li>
+                    <li><a href="videos.html">Videos</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <main>
-        <section>
-            <h2>FAQs</h2>
-            <p>Welcome to our Health Website. We are dedicated to providing reliable health information and resources...</p>
-            <!-- Add more content as needed -->
+        <!-- FAQs Content -->
+        <section id="faqs" class="section-container">
+            <h2 style="color:rgb(244, 129, 6); font-weight: 700;font-size:4rem">FAQs</h2>
+            <div class="faq-item">
+                <h3 class="faq-question">What is a balanced diet?</h3>
+                <div class="faq-answer">
+                    <p>A balanced diet includes a variety of foods in the right proportions, consuming adequate amounts of nutrients necessary for good health.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <h3 class="faq-question">How much water should I drink daily?</h3>
+                <div class="faq-answer">
+                    <p>It's commonly recommended to drink eight 8-ounce glasses of water a day, which equals about 2 liters or half a gallon. However, individual needs can vary.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <h3 class="faq-question">What are the benefits of regular exercise?</h3>
+                <div class="faq-answer">
+                    <p>Regular exercise helps improve overall health, reduces the risk of chronic diseases, aids in weight management, and boosts mental health.</p>
+                </div>
+            </div>
+            <!-- Add more FAQ items as needed -->
         </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Health Website. All rights reserved.</p>
-    </footer>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2024 Health Website. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="js/faqs.js"></script>
 </body>
 </html>
