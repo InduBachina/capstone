@@ -281,3 +281,50 @@ h2 {
     font-family: Georgia, "Times New Roman", serif;
     text-align: center;
 }
+
+/* Testimonials Section */
+.section-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 100px auto 2rem; /* Adjust margin to account for fixed header */
+    padding: 2rem;
+    background: #f4f4f4;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h2 {
+    color: #4CAF50;
+    margin-bottom: 1rem;
+}
+
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.testimonial-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-text {
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.testimonial-author {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.testimonial-rating {
+    color: #f39c12; /* Gold color for stars */
+}
+
+.stars {
+    color: #f39c12; /* Gold color for stars */
+}
