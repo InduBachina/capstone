@@ -328,3 +328,73 @@ h2 {
 .stars {
     color: #f39c12; /* Gold color for stars */
 }
+
+.image {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+    padding: 20px;
+}
+
+.image img {
+    width: 100%;
+    /* Ensure the image fills the circular container */
+    height: 100%;
+    /* Ensure the image fills the circular container */
+    object-fit: cover;
+    /* Maintain aspect ratio and cover the container */
+}
+
+.info {
+    flex: 1;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    width: 50px;
+    text-indent: 0em;
+}
+
+#about {
+    font-family: "Brush Script MT", cursive;
+    font-size: 50px;
+    font-style: italic;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+    color: red;
+    padding-bottom: 14px;
+}
+
+
+.video-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.video-row {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.video-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.small-videos .video-container video {
+    max-width: 100%;
+}
+
+
